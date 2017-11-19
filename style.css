@@ -1,9 +1,144 @@
-h1{
-    position: relative;
-    margin-left: 100px; 
-    font-weight: 700;
+@font-face{
+    
+    font-family: 'MariadPro';
+    
+    src: url('./fonts/8141.eot');
+    
+    src: url('./fonts/8141.eot?iefix') format('eot'),
+    
+    url('./fonts/8141.woff') format('woff'),
+
+    url('./fonts/8141.ttf') format('truetype'),
+    
+    url('./fonts/8141.svg#webfont') format('svg');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
+
+.m-left, .m-right {
+display: inline-block;
+width:48%;
+vertical-align: top;
+padding-left:20px;
 }
-h4{
-    position: relative;
-    margin-left: 100px;
-}dfghjktfghjkl
+.m-left__first {
+    text-align: center;
+    display: block;
+    padding-top:35px;
+
+}
+.m-left__first h2 {
+    margin-top:10px;
+    margin-bottom: 0px; 
+    font-family: 'MariadPro';
+}   
+.m-left__first h1 {
+    margin-top:0px;
+    margin-bottom: 10px;
+    font-family: 'MariadPro'; 
+}     
+.m-left__first h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.m-left__second {
+  
+  display: block;
+  padding-top:35px;
+}
+.m-left__second h2 {
+   color:royalblue;
+   margin-top:50px;
+   margin-bottom: 0px; 
+   margin-left: 120px;
+}
+.m-left__second img{
+    margin-top:-60px;
+    margin-bottom: 10px; 
+}
+.m-left__second hr {
+   margin-left:230px; 
+   margin-top:-15px;
+}
+.m-left__second p{
+    margin:120px;
+    margin-left: 30px;
+}
+.m-left__third{
+    display:block;
+}
+.m-left__third h2{
+    color:royalblue;
+    margin-left: 120px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+.m-left__third hr{
+    margin-left: 260px;
+    margin-top:-15px;
+}
+.m-left__third img{
+    margin-top:-60px;
+    margin-bottom:0px;
+}
+.m-left__third p span{
+    color:royalblue;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.m-left__third p{
+    padding-left:20px;
+    margin-top: 50px;
+}
+.m-left__fourth{
+    display: block;
+}
+.m-left__fourth h2{
+    color:royalblue;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.m-left__fourth hr{
+    margin-left: 260px;
+    margin-top:-15px;
+}
+.m-left__fourth img{
+    margin-top:-60px;
+    margin-bottom:0px;
+}
+.m-left__fourth p{
+    margin-top:50px;
+    margin-left:70px;
+}
+.m-right__education{
+    display:block;
+}
+.m-right__education h2{
+    color:royalblue;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.m-right__education hr{
+    margin-left: 280px;
+    margin-top:-15px;
+}
+.m-right__education img{
+    margin-top:-60px;
+    margin-bottom:0px;
+}
+.education__item h3{
+    color:royalblue;
+    margin-top: 50px;
+    margin-left:-5px;
+}
+.education__item span{
+    margin-left:150px;
+    margin-top:-70px;
+}
+.
