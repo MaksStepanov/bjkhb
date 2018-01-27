@@ -1,0 +1,762 @@
+@font-face{
+    
+    font-family: 'MariadPro';
+    
+    src: url('/fonts/8141.eot');
+    
+    src: url('/fonts/8141.eot?iefix') format('eot'),
+    
+    url('/fonts/8141.woff') format('woff'),
+
+    url('/fonts/8141.ttf') format('truetype'),
+    
+    url('/fonts/8141.svg#webfont') format('svg');
+    
+    font-weight: 700;
+    
+    font-style: normal;
+    
+    }
+
+    @font-face{
+        
+        font-family: 'MariadPro';
+        
+        src: url('fonts/myriadpro-lightsemiext.eot');
+        
+        src: url('fonts/myriadpro-lightsemiext.eot?iefix') format('eot'),
+        
+        url('fonts/myriadpro-lightsemiext.woff') format('woff'),
+    
+        url('fonts/myriadpro-lightsemiext.ttf') format('truetype'),
+        
+        url('fonts/myriadpro-lightsemiext.svg#webfont') format('svg');
+        
+        font-weight: 300;
+        
+        font-style: normal;
+        
+        }
+        @font-face{
+            
+            font-family: 'MariadPro';
+            
+            src: url('./fonts/8143.eot');
+            
+            src: url('./fonts/8143.eot?iefix') format('eot'),
+            
+            url('./fonts/8143.woff') format('woff'),
+        
+            url('./fonts/8143.ttf') format('truetype'),
+            
+            url('./fonts/8143.svg#webfont') format('svg');
+            
+            font-weight: 700;
+            
+            font-style: normal;
+            
+            }
+        
+ html{
+     font-family: "MariadPro";
+ }       
+.column-left, .column-right {
+display: inline-block;
+width:55%;
+vertical-align: top;
+padding-left:20px;
+}
+.column-left{
+    width: 41%;
+}
+.left__header {
+    text-align: center;
+    display: block;
+    padding-top:85px;
+
+}
+.left__header h2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: 'MariadPro';
+    font-weight: 300;
+    font-size: 58px;
+    line-height: 1;
+}   
+.left__header h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'MariadPro';
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 51px;
+}     
+.left__header h4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 28px;
+}
+.left__profile {
+    display: block;
+    padding-top: 46px;
+    padding-left: 40px;
+}
+.image-wrap{
+    position: relative;
+    margin-top: 14px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.left__profile img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);    
+}
+.left__profile h2 {
+    color: #3d6cb0;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 36px;
+    margin-bottom: 28px;
+    padding-left: 7px;
+    letter-spacing: 2px;
+}
+.left__profile hr {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 18px;
+    margin-left: 4px;
+}
+.left__profile p{
+    position: relative;
+    margin-top: 0px;
+    line-height: 1.3;
+    font-family: "MariadPro";
+    font-weight: 300;
+    }
+.left__profile p b{
+    position: relative;
+    margin-top: 0px;
+    line-height: 1.3;
+    font-family: "MariadPro";
+    font-weight: 700;
+}
+.left__contact{
+    display: block;
+    padding-top: 10px;
+    padding-left: 37px;;
+}
+.image-wrap1{
+    position: relative;
+    margin-top: 3px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.left__contact img{
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translateX(150%) translateY(-250%);
+}
+.left__contact h2{
+    color: #3d6cb0;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 36px;
+    margin-bottom: 39px;
+    padding-left: 9px;
+    letter-spacing: 1.6px;
+}
+.left__contact hr{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+.contact__address p{
+    padding-left: 1px;
+    margin-top: 11px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.2px;
+    word-spacing: -6px;
+}
+.contact__address p span{
+    color: #3d6cb0;
+    padding-right: 45px;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 24px;
+}
+.contact__e-mail p{
+    padding-left: 4px;
+    padding-top: 5px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -1.5px;
+}
+.contact__e-mail p span{
+    color: #3d6cb0;
+    padding-right: 75px;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 24px;
+}
+.contact__phone p{
+    padding-left: 4px;
+    padding-top: 5px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.7px;
+}
+.contact__phone p span{
+    color:#3d6cb0;
+    padding-right: 67px;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 24px;
+}
+.contact__website p{
+    padding-left: 4px;
+    padding-top: 5px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -1.5px;
+}
+.contact__website p span{
+    color: #3d6cb0;
+    padding-right: 61px;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 24px;
+}
+.left__skills{
+    display: block;
+    padding-top: 10px;
+    padding-left: 37px;
+}
+.image-wrap2{
+    position: relative;
+    margin-top: 4px;
+    padding-left: 2px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.left__skills img{
+    position: relative;
+    top: 64%;
+    right: 37%;
+    transform: translateX(150%) translateY(-250%);
+}
+.left__skills h2{
+    color: #3d6cb0;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 26px;
+    margin-bottom: 30px;
+    padding-left: 7px;
+    letter-spacing: 2px;
+}
+.left__skills h2, 
+.left__skills hr{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right:9px;
+}
+
+.left__skills .creative p{
+    margin-top: 9px;
+    margin-left: 174px;
+    margin-bottom: 0px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    letter-spacing: -0.4px;
+    font-size: 28px;
+    
+}
+.target{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 11px;
+}
+.target li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right:6px;
+    border-radius: 100px;
+    background-color: #e6e6e6;
+}
+.target li.blue{
+    background-color: #3d6cb0;
+
+}
+.left__skills .teamwork p{
+    margin-top: 9px;
+    margin-left: 159px;
+    margin-bottom: 0px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    letter-spacing: -1.3px;
+    font-size: 28px;
+      
+  }
+.target2{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 12px;
+}
+.target2 li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right:6px;
+    border-radius: 100px;
+    background-color: #e6e6e6;
+}
+.target2 li.blue{
+    background-color: #3d6cb0;
+
+}
+.left__skills .innovate p{
+    margin-top: 9px;
+    margin-left: 168px;
+    margin-bottom: 0px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    letter-spacing: -1.2px;
+    font-size: 29px;
+  }
+.target3{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-left: 11px; 
+
+}
+.target3 li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right:6px;
+    border-radius: 100px;
+    background-color: #e6e6e6;
+}
+.target3 li.blue{
+    background-color: #3d6cb0;
+
+}
+.left__skills .communication p{
+    margin-top: 9px;
+    margin-left: 121px;
+    margin-bottom: 0px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    letter-spacing: -1.7px;
+    font-size: 29px;
+  }
+.target4{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-left: 11px;
+
+}
+.target4 li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right:6px;
+    border-radius: 100px;
+    background-color: #e6e6e6;
+}
+.target4 li.blue{
+    background-color: #3d6cb0;
+
+}
+.right__education{
+    display:block;
+}
+.column-right{
+    padding-left: 20px; 
+}
+.image-wrap3{
+    position: relative;
+    margin-top: 60px;
+    padding-left: 5px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.right__education h2{
+    color: #3d6cb0;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 86px;
+    padding-left: 15px;
+    letter-spacing: 2px;
+    height: 47px
+}
+.right__education hr{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 65px;
+    margin-left: 1px;
+}
+.right__education img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.education__item h3{
+    display: inline-block;
+    color: #3d6cb0;
+    font-family: "MariadPro";
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.header__cont{
+    margin-top: 9px;
+}
+.header__cont span{
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 11px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    word-spacing: -2px;
+    letter-spacing: -0.9px;
+}
+.education__master{
+    vertical-align: top;
+    display: inline-block;
+    width: 23px;
+    margin-top: 9px;
+    margin-right: 19px;
+    height: 23px;
+    margin-left: 16px;
+    border-radius: 100px;
+    background-color: #000000;
+}
+.education__name span{
+    display: block;
+    padding-left: 58px;
+    font-size: 28px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    letter-spacing: -0.4px;
+}
+.education__item p{
+    display: block;
+    padding-left: 62px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    line-height: 1.3;
+}
+.right__experience{
+    display:block;
+
+}
+.image-wrap4 {
+    position: relative;
+    margin-top: 11px;
+    padding-left: 3px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.right__experience img{
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translateX(154%) translateY(-251%);
+}
+.right__experience h2{
+    color: #3d6cb0;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 46px;
+    padding-left: 17px;
+    letter-spacing: 2px;
+}
+.right__experience hr {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 22px;
+}
+.experience__item h3{
+    display: inline-block;
+    color: #000000;
+    font-family: "MariadPro";
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    letter-spacing: -0.4px;
+}
+.header__cont{
+    margin-top: 9px;
+}
+.header__cont span{
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 11px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    word-spacing: -2px;
+    letter-spacing: -0.9px;
+}
+.experience__company{
+    vertical-align: top;
+    display: inline-block;
+    width: 23px;
+    margin-top: 9px;
+    margin-right: 19px;
+    height: 23px;
+    margin-left: 16px;
+    border-radius: 100px;
+    background-color: #000000;
+}
+.experience__name span{
+    display: block;
+    padding-left: 58px;
+    font-size: 28px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    letter-spacing: -0.7px;
+}
+.experience__item p{
+    display: block;
+    padding-left: 62px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    line-height: 1.3;
+}
+.right__software{
+    display:block;
+}
+.image-wrap5 {
+    position: relative;
+    margin-top: 43px;
+    padding-left: 3px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.right__software img{
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translateX(150%) translateY(-208%);
+}
+.right__software h2{
+    color: #3d6cb0;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "MariadPro";
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    padding-left: 17px;
+    letter-spacing: 2px;
+}
+.right__software hr {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 19px;
+    margin-top: 54px;
+}
+.software__cont div{
+    display: inline-block;
+  
+}
+
+.software__item1 h3{
+    margin-top: 21px;
+    margin-bottom: 12px;
+    padding-left: 8px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+.software__photoshop__gray{
+    padding-top: 0px;
+    margin-left: 11px;
+    width: 300px;
+    height: 25px;
+    background-color: rgba(128,128,128,0.29);
+    
+}
+.software__photoshop__blue{
+    margin-left: 0px;
+    height: 100%;
+    background-color: #3d6cb0;
+    width: 92%;
+}
+
+.software__item2 h3{
+    margin-top: 21px;
+    margin-bottom: 12px;
+    padding-left: 74px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+.software__dreamwear__gray{
+    padding-top: 0px;
+    margin-left: 74px;
+    width: 300px;
+    height: 25px;
+    background-color: rgba(128,128,128,0.29);   
+}
+.software__dreamwear__blue{
+    margin-left: 0px;
+    height: 100%;
+    background-color: #3d6cb0;
+    width: 83%;
+}
+.software__item3 h3{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    padding-left: 9px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -1.5px;
+}
+.software__illustrator__gray{
+    padding-top: 0px;
+    margin-left: 11px;
+    width: 300px;
+    height: 25px;
+    background-color: rgba(128,128,128,0.29);
+    
+}
+.software__illustrator__blue{
+    margin-left: 0px;
+    height: 100%;
+    background-color: #3d6cb0;
+    width: 71%;
+}
+.software__item4 h3{
+    margin-top: 17px;
+    margin-bottom: 10px;
+    padding-left: 75px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+.software__after__gray{
+    padding-top: 0px;
+    margin-left: 74px;
+    width: 300px;
+    height: 25px;
+    background-color: rgba(128,128,128,0.29);
+    
+}
+.software__after__blue{
+    margin-left: 0px;
+    height: 100%;
+    background-color: #3d6cb0;
+    width: 62%;
+}
+.software__item5 h3{
+    margin-top: 17px;
+    margin-bottom: 10px;
+    padding-left: 9px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+.software__indesign__gray{
+    padding-top: 0px;
+    margin-left: 11px;
+    width: 300px;
+    height: 25px;
+    background-color: rgba(128,128,128,0.29);
+    
+}
+.software__indesign__blue{
+    margin-left: 0px;
+    height: 100%;
+    background-color: #3d6cb0;
+    width: 56%;
+}
+.software__item6 h3{
+    margin-top: 17px;
+    margin-bottom: 10px;
+    padding-left: 75px;
+    font-family: "MariadPro";
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+
+.software__HTML__gray{
+    padding-top: 0px;
+    margin-left: 74px;
+    width: 300px;
+    height: 25px;
+    background-color: rgba(128,128,128,0.29);
+    
+}
+.software__HTML__blue{
+    margin-left: 0px;
+    height: 100%;
+    background-color: #3d6cb0;
+    width: 91%;
+}
