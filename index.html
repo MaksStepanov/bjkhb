@@ -1,22 +1,40 @@
-<!DOCTYPE <html>
+<!DOCTYPE html>
     <head>
         <meta  charset="utf-8">
         <title>Первый макет</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet"  href="style.css">
     </head>
     <body>
-            <div class="m-left"> 
-                <div class="m-left__first">
-                <img src="image/Elipse.png" width="150" height="150">
-                <h2>NAME HERE</h2>
-                <h1>SURNAME</h1>
-                <h4>GRAPGHIC DESIGHER</h4>
+            <div class="column-left"> 
+                <div class="left__header">
+                    <svg width="260" height="260">
+                        <circle r="125" cx="50%" cy="50%" fill="white" stroke="#3d6cb0"/>
+                            <circle r="110" cx="50%" cy="50%" fill="#3d6cb0"/>
+                            </circle>
+                            </svg>
+                <h2 class="title__name">NAME HERE</h2>
+                <h1 class="title__surname">SURNAME</h1>
+                <h4 class="title-graphic__designer">GRAPHIC DESIGHER</h4>
             </div>
-            <div class="m-left__second">
-                <h2>PROFILE</h2>
-                <img align="left" src="image/PROFILE.png" width="100" height="100">
-                <hr width="200px" align="left" color="royalblue" size="7">
-                <p>
+            
+            <div class="left__profile">
+                <div class="title__block">
+                <div class="image-wrap">
+                <svg width="80" height="80">
+                    <circle r="40" cx="50%" cy="50%" fill="white" stroke="#3d6cb0"/>
+                        <circle r="35" cx="50%" cy="50%" fill="#3d6cb0"/>
+                        </circle>
+                        </svg>
+                <img class="item-header__icon" src="image/Profile.png" width="30" height="30">
+                </div>
+                <div class="item-header__title">
+                <h2 class="item-header__profile">PROFILE</h2>
+                </div>
+                <div class="item-header__line">
+                <hr class="item-line__profile" width="180px"  color="#3d6cb0" size="8">  
+                </div>
+            </div>
+                <p class="text">
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
                     Aenean commodo ligula eget dolor. Aenean massa. Cum sociis<br>
                     natoque penatibus et magnis dis parturient montes, nascetur<br>
@@ -24,7 +42,7 @@
                     pretium quis, sem. Nulla consequat massa quis enim. Donec<br>
                     pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim<br>
                     justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam<br>
-                    dictum felis eu <b>pede mollis pretium. Integer tincidunt. Cras<br>
+                    dictum felis eu <b class="text__bold">pede mollis pretium. Integer tincidunt. Cras<br>
                     dapibus. Vivamus elementum semper nisi. Aenean<br>
                     vulputate eleifend tellus. Aenean leo ligula, portittor eu,<br>
                     consequat vitae, eleifend ac, enim. Aliquam lorem ante,<br>
@@ -32,108 +50,329 @@
                     nulla ut metus varius laoreet. Quisque rutrum</b>
                 </p>
                 </div>
-                <div class="m-left__third">
-                <h2>CONTACT</h2><img class="icon" align="left" src="image/Phone.png" width="100" heigth="100">
-                <hr width="200px" align="left" color="royalblue" size="7">
-                <p><span>ADDRESS</span>Main Street, City.</p>
-                <p><span>E-MAIL</span>contact@domain.com</p>
-                <p><span>PHONE</span>555-555-555</p>
-                <p><span>WEBSITE</span>www.yourweb.com</p>
+                <div class="left__contact">
+                        <div class="title__block">
+                    <div class="image-wrap">
+                        <svg width="80" height="80">
+                            <circle r="40" cx="50%" cy="50%" fill="white" stroke="#3d6cb0"/>
+                                <circle r="35" cx="50%" cy="50%" fill="#3d6cb0"/>
+                                </circle>
+                                </svg>
+                        <img class="item-header__icon" src="image/CONTACT.png" width="40" height="40">
+                        </div>
+                        <div class="item-header__title">
+                <h2 class="item-header__contact">CONTACT</h2>
+                        </div>
+                       <div class="item-header__line">
+                <hr class="item-line__contact" width="160px" align="left" color="#3d6cb0" size="8">
                 </div>
-                <div class="m-left__fourth">
-                <h2>SKILLS</h2><img align="left" src="image/SKILLS.png" width="100" height="100">
-                <hr width="200px" align="left" color="royalblue" size="7">
-                <p><font size="3">CREATIVE</font></p>
-                <img src="image/Elipse 2.png" width="350" height="20">
-                <p><font size="3">TEAMWORK</font></p>
-                <img src="image/Elipse 3.png" width="350" height="20">
-                <p><font size="3">INNOVATE</font></p>
-                <img src="image/Elipse 4.png" width="350" height="20">
-                <p><font size="3">COMMUNICATION</font></p>
-                <img src="image/Elipse 5.png" width="350" height="20">
+                </div>
+                <div class="contact__data">
+                <p class="contact-item">
+                        <p class="contact-item__name">
+                    <span class="contact-item__adress">ADDRESS</span>
+                    <span class="contact-item__value">Main Street, City.</span>
+                </p>
+                </p>
+                <p class="contact-item">
+                    <p class="contact-item__name">
+                <span class="contact-item__e-mail">E-MAIL</span>
+                <span class="contact-item__value">contact@domain.com</span>
+            </p>
+                </p>
+            <p class="contact-item">
+                    <p class="contact-item__name">
+                <span class="contact-item__phone">PHONE</span>
+                <span class="contact-item__value">555-555-555</span>
+            </p>
+            </p>
+            <p class="contact-item">
+                    <p class="contact-item__name">
+                <span class="contact-item__website">WEBSITE</span>
+                <span class="contact-item__value">www.yourweb.com</span>
+                </p>
+            </p>
+                </div>
+            </div>
+                <div class="left__skills">
+                    <div class="title__block">
+                    <div class="image-wrap">
+                        <svg width="80" height="80">
+                            <circle r="40" cx="50%" cy="50%" fill="white" stroke="#3d6cb0"/>
+                                <circle r="35" cx="50%" cy="50%" fill="#3d6cb0"/>
+                                </circle>
+                                </svg>
+                        <img class="item-header__icon" src="image/SKILLS.png" width="35" height="45">
+                        </div>
+                        <div class="item-header__title">
+                <h2 class="item-header__skills">SKILLS</h2>
+                        </div>
+                    <div class="item-header__line">
+                <hr class="item-line__skills" width="209px" align="left" color="#3d6cb0" size="7">
+                </div>
+                </div>
+                <div class="qualification">
+                <div class="qualification__creative">
+                <p class="title">CREATIVE</p>
+                <ul class="target">
+                <li class="blue"></li>
+                <li class="blue"></li>
+                <li class="blue"></li>
+                <li class="blue"></li>
+                <li class="blue"></li>
+                <li class="blue"></li>
+                <li class="blue"></li>
+                <li class="blue"></li>
+                <li class="blue"></li>
+                <li class="gray"></li>
+                <li class="gray"></li>
+                <li class="gray"></li>
+                </ul>
+                </div>
+                <div class="qualification__teamwork">
+                <p class="title">TEAMWORK</p>
+                <ul class="target">
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="gray"></li>
+                    </ul>
+                </div>
+                <div class="qualification__innovate">
+                <p class="title">INNOVATE</p>
+                <ul class="target">
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="gray"></li>
+                    <li class="gray"></li>
+                    <li class="gray"></li>
+                    <li class="gray"></li>
+                    <li class="gray"></li>
+                    <li class="gray"></li>
+                    </ul>
+                </div>
+                <div class="qualification__communication">
+                <p class="title">COMMUNICATION</p>
+                <ul class="target">
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="blue"></li>
+                    <li class="gray"></li>
+                    </ul>
+                </div>
             </div>
         </div>
-            <div class="m-right">
-                    <div class="m-right__education">
-                            <h2>EDUCATION</h2><img align="left" src="image/EDUCATION.png" width="100" height="100">
-                            <hr width="200px" align="left" color="royalblue" size="7">
+        </div>
+            <div class="column-right">
+                    <div class="right__education">
+                        <div class="title__block">
+                            <div class="image-wrap">
+                                    <svg width="80" height="80">
+                                        <circle r="40" cx="50%" cy="50%" fill="white" stroke="#3d6cb0"/>
+                                            <circle r="35" cx="50%" cy="50%" fill="#3d6cb0"/>
+                                            </circle>
+                                            </svg>
+                                    <img class="item-header__icon"  src="image/EDUCATION.png" width="45" height="50">
+                                    </div>
+                                    <div class="item-header__title">
+                            <h2 class="item-header__education">EDUCATION</h2>                      
+                        </div>
+                        <div class="item-header__line">
+                            <hr class="item-line__education" width="339px" align="left" color="royalblue" size="7">
+                            </div>
+                        </div>
                             <div class="education__item">
-                                <h3><ul><li>MASTER DEGREE</li></ul></h3>
-                                <span>// Feb 2011 - Jun 2014</span>
-                                <span class="education__name">UNIVERSITY NAME</span>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                                <div class="header__cont">
+                                    <div class="education__master">
+                                        </div>
+                                <h3 class="master__title">MASTER DEGREE</h3>
+                                <span class="master__date">// Feb 2011 - Jun 2014</span>
+                                </div>
+                                <div class="education__name">
+                                        <span class="university__name">UNIVERSITY NAME</span>
+                                    </div>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget<br> dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
                             </div>
                             <div class="education__item">
-                                    <h3><ul><li>MASTER DEGREE</li></ul></h3>
-                                    <span>// Feb 2011 - Jun 2014</span>
-                                    <span class="education__name">UNIVERSITY NAME</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                                    <div class="header__cont">
+                                    <div class="education__master">
+                                        </div>
+                                    <h3 class="master__title">MASTER DEGREE</h3>
+                                    <span class="master__date">// Feb 2011 - Jun 2014</span>
+                                    </div>
+                                    <div class="education__name">
+                                        <span class="university__name">UNIVERSITY NAME</span>
+                                    </div>
+                                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget<br> dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
                                 </div>
                                 <div class="education__item">
-                                        <h3>MASTER DEGREE</h3>
-                                        <span>// Feb 2011 - Jun 2014</span>
-                                        <span class="education__name">UNIVERSITY NAME</span>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                                        <div class="header__cont">
+                                        <div class="education__master">
+                                            </div>
+                                        <h3 class="master__title">MASTER DEGREE</h3>
+                                        <span class="master__date">// Feb 2011 - Jun 2014</span>
+                                        </div>
+                                        <div class="education__name">
+                                                <span class="university__name">UNIVERSITY NAME</span>
+                                            </div>
+                                        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget<br> dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
                                     </div>
                                     <div class="education__item">
-                                            <h3>MASTER DEGREE</h3>
-                                            <span>// Feb 2011 - Jun 2014</span>
-                                            <span class="education__name">UNIVERSITY NAME</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                                            <div class="header__cont">
+                                            <div class="education__master">
+                                                </div>
+                                            <h3 class="master__title">MASTER DEGREE</h3>
+                                            <span class="master__date">// Feb 2011 - Jun 2014</span>
+                                            </div>
+                                            <div class="education__name">
+                                                    <span class="university__name">UNIVERSITY NAME</span>
+                                                </div>
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget<br> dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
                                         </div>
                     </div>
-            
-                    <div class="m-right__experience">
-                            <h2>EXPERIENCE</h2><img align="left" src="image/EXPERIENCE.png" width="100" height="100">
-                            <hr width="200px" align="left" color="royalblue" size="7">
+                    <div class="right__experience">
+                        <div class="title__block">
+                            <div class="image-wrap">
+                                    <svg width="80" height="80">
+                                        <circle r="40" cx="50%" cy="50%" fill="white" stroke="#3d6cb0"/>
+                                            <circle r="35" cx="50%" cy="50%" fill="#3d6cb0"/>
+                                            </circle>
+                                            </svg>
+                                    <img class="item-header__icon" src="image/EXPERIENCE.png" width="40" height="40">
+                                    </div>
+                                    <div class="item-header__title">
+                            <h2 class="item-header__experience">EXPERIENCE</h2>
+                                    </div>
+                                    <div class="item-header__line">
+                            <hr class="item-line__experience" width="335px" align="left" color="royalblue" size="7">
+                            </div>
+                        </div>
                             <div class="experience__item">
-                                    <h3>COMPANY NAME</h3>
-                                    <span>// Feb 2011 - Jun 2014</span>
-                                    <span class="education__name">YOUR JOB HERE</span>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                                    <div class="header__cont">
+                                            <div class="experience__company">
+                                                </div>
+                                    <h3 class="company__title">COMPANY NAME</h3>
+                                    <span class="company__date">// Feb 2011 - Jun 2014</span>
+                                    </div>
+                                    <div class="experience__name">
+                                        <span class="your__job__here">YOUR JOB HERE</span>
+                                    </div>
+                                    <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget<br> dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
                                 </div>
                                 <div class="experience__item">
-                                        <h3>COMPANY NAME</h3>
-                                        <span>// Feb 2011 - Jun 2014</span>
-                                        <span class="education__name">YOUR JOB HERE</span>
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                                        <div class="header__cont">
+                                                <div class="experience__company">
+                                                    </div>
+                                        <h3 class="company__title">COMPANY NAME</h3>
+                                        <span class="company__date">// Feb 2011 - Jun 2014</span>
+                                        </div>
+                                        <div class="experience__name">
+                                                <span class="your__job__here">YOUR JOB HERE</span>
+                                            </div>
+                                        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget<br> dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
                                     </div>
                                     <div class="experience__item">
-                                            <h3>COMPANY NAME</h3>
-                                            <span>// Feb 2011 - Jun 2014</span>
-                                            <span class="education__name">YOUR JOB HERE</span>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
+                                            <div class="header__cont">
+                                                    <div class="experience__company">
+                                                        </div>
+                                            <h3 class="company__title">COMPANY NAME</h3>
+                                            <span class="company__date">// Feb 2011 - Jun 2014</span>
+                                            </div>
+                                            <div class="experience__name">
+                                                    <span class="your__job__here">YOUR JOB HERE</span>
+                                                </div>
+                                            <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget<br> dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,<br> nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.</p>
                                         </div>
-                                        
                     </div>
-                
-                    <div class="m-right__software">
-                            <h2>SOFTWARE</h2><img align="left" src="image/SOFTWARE.png" width="100" height="100">
-                            <hr width="200px" align="left" color="royalblue" size="7">
+                    <div class="right__software">
+                            <div class="title__block">
+                            <div class="image-wrap">
+                                    <svg width="80" height="80">
+                                        <circle r="40" cx="50%" cy="50%" fill="white" stroke="#3d6cb0"/>
+                                            <circle r="35" cx="50%" cy="50%" fill="#3d6cb0"/>
+                                            </circle>
+                                            </svg>
+                                    <img class="item-header__icon" src="image/SOFTWARE.png" width="40" height="50">
+                                    </div>
+                                    <div class="item-header__title">
+                            <h2 class="item-header__software">SOFTWARE</h2>
+                                    </div>
+                                    <div class="item-header__line">
+                            <hr class="item-line__software" width="338px" align="left" color="#3d6cb0" size="7">
+                                </div>
+                            </div>
+                            <div class="software__cont">
+                                    <div class="software__item software-column__left">
                             <div class="software__item">
-                                <h3>PHOTOSHOP</h3>
-                                <img src="image/PHOTOSHOP RATE.png">
+                                <h3 class="software__item software__photoshop">PHOTOSHOP</h3>
+                                <div class="software__progress">
+                                    <div class="software__progress-count software__progress-count_photoshop">                                    
+                                </div>
+                            </div>                            
                             </div>
                             <div class="software__item">
-                                    <h3>DREAMWEAVER</h3>
-                                    <img src="image/DREAMWEAVER RATE.png">
+                                    <h3 class="software__item software__illustrator">ILLUSTRATOR</h3>
+                                <div class="software__progress">    
+                                 <div class="software__progress-count software__progress-count_illustrator">
+                                </div>   
                                 </div>
-                                <div class="software__item">
-                                        <h3>ILLUSTRATOR</h3>
-                                        <img src="image/ILLUSTRATOR RATE.png">
+                            </div>
+                            <div class="software__item">                                        
+                                    <h3 class="software__item software__indesign">INDESIGN</h3>
+                                    <div class="software__progress">    
+                                            <div class="software__progress-count software__progress-count_indesign">
+                                           </div>   
+                                           </div>        
+                                </div>
                                     </div>
-                                    <div class="software__item">
-                                            <h3>AFTER EFFECTS</h3>
-                                            <img src="image/AFTER EFFECTS RATE.png">
+                                    
+                                    <div class="software__item software-column__right">
+                            <div class="software__item">
+                                    <h3 class="software__item software__dreamweaver">DREAMWEAVER</h3>
+                                    <div class="software__progress software__progress-dreamweaver">
+                                <div class="software__progress-count software__progress-count_dreamweaver">
+                                </div>
+                                </div>
+                            </div>
+                                
+                                    <div class="software__item">                                            
+                                            <h3 class="software__item software__after">AFTER EFFECTS</h3>
+                                            <div class="software__progress software__progress-after">    
+                                                    <div class="software__progress-count software__progress-count_after">
+                                                   </div>   
+                                                   </div>                                            
                                         </div>
-                                        <div class="software__item">
-                                                <h3>INDESIGN</h3>
-                                                <img src="image/INDESIGN RATE.png">
-                                            </div>
+                                        
                                             <div class="software__item">
-                                                    <h3>HTML&CSS3</h3>
-                                                    <img src="image/HTML&CSS3 RATE.png">
+                                                    <h3 class="software__item software__html">HTML&CSS3</h3>
+                                                    <div class="software__progress software__progress-html">    
+                                                            <div class="software__progress-count software__progress-count_html">
+                                                           </div>   
+                                                           </div>
                                                 </div>
+                                                </div>
+                                            </div>
+                                </div>
                     </div>
                     
             </div>
